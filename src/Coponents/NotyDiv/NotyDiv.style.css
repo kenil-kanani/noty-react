@@ -1,0 +1,93 @@
+.noty-div {
+    width: 240px;
+    padding: 10px;
+    opacity: 1;
+    margin: 5px;
+    margin-right: 20px;
+}
+
+
+/* Background color of NotyDiv and text color of NotyDiv */
+
+.success {
+    background-color: rgb(220 252 231);
+}
+
+.success-text {
+    color: rgb(21 128 61);
+}
+
+.alert {
+    background-color: rgb(254 249 195);
+}
+
+.alert-text {
+    color: (161 98 7)
+}
+
+.error {
+    background-color: rgb(254 226 226);
+}
+
+.error-text {
+    color: rgb(185 28 28);
+}
+
+.warning {
+    background-color: rgb(255 237 213);
+}
+
+.warning-text {
+    color: rgb(194 65 12);
+}
+
+.info {
+    background-color: rgb(219 234 254);
+}
+
+.info-text {
+    color: rgb(29 78 216);
+}
+
+
+/* Background color of NotyDiv and text color of NotyDiv */
+
+
+
+.noty_effects_open {
+    opacity: 1;
+    animation: noty_anim_in 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.noty_effects_close {
+    opacity: 0;
+    animation: noty_anim_out 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+@keyframes noty_anim_in {
+    0% {
+        width: 0px;
+        transform: translate(50%);
+        opacity: 0;
+    }
+
+    100% {
+        width: 240px;
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+@keyframes noty_anim_out {
+    0% {
+        width: 240px;
+        transform: translate(0);
+        opacity: 1;
+    }
+
+    100% {
+        width: 0px;
+        transform: translate(50%);
+        opacity: 0;
+    }
+}

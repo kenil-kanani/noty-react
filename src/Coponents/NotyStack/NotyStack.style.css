@@ -1,0 +1,12 @@
+.noty-stack {
+    position: fixed;
+    top: 20px;
+    right: 0px;
+    width: 240px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    margin: 5px;
+    margin-right: 20px;
+}
